@@ -12,14 +12,10 @@
              primes[i]=1;
             for(int j=i; j*i<=n; j++)
              primes[j]=0;
-
-
         }
-
-
-    return primes[n];
-
+        return primes[n];
     }
+    
     int main()
     {
         int n,x;
@@ -31,5 +27,5 @@
         cout<<"prime"<<endl;
 
     }
-
+time complexity : o(n log log n)
 tutorial:https://www.youtube.com/watch?v=eKp56OLhoQs
