@@ -27,5 +27,5 @@
         cout<<"prime"<<endl;
 
     }
-time complexity : o(n log log n)
+    time complexity : o(n log log n)
 tutorial:https://www.youtube.com/watch?v=eKp56OLhoQs
